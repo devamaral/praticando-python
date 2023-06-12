@@ -33,4 +33,5 @@ setNumber = {1, 2, 3, 4, 5};
 setNumber2 = {1, 2, 6, 4, 5};
 
 # print(2 in setNumber);
-print(setNumber.intersection(setNumber, setNumber2))
+print(setNumber.intersection(setNumber, setNumber2))   
+print('Oi')
