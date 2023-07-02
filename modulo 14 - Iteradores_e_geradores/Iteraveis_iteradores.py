@@ -10,10 +10,11 @@ Iterável | Iterable ->
 
 """ 
 
-nome = 'Lucas Gabriel'; # É um Iterável mas não é um Iterador.
-numeros = [1, 2, 3, 4, 5]; # É um Iterável mas não é um Iterador.
+nome = 'Lucas Gabriel'; # É um Iterável/Iterable mas não é um Iterador/Iterator.
+numeros = [1, 2, 3, 4, 5]; # É um Iterável/Iterable mas não é um Iterador/Iterator.
 
-print(hasattr(numeros, '__iter__'));
+it1 = iter(nome);
+it2 = iter(numeros);
 
-for letra in nome:
-    print(letra);
+print(next(it1));
+print(next(it2));
